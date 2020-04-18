@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1587074784 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\trabajo practico 1\felipe.c
+	<stdio.h>
+	<stdlib.h>
+	"Felipe.h"
+
+1587074785 c:\users\felib\desktop\clases de programacion1 y laboratorio1\trabajo practico 1\felipe.h
+
+1587163571 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\trabajo practico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TP1BustosGil.h"
+
+1587077848 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\trabajo practico 1\tp1bustosgil.c
+	<stdio.h>
+	<stdlib.h>
+	"TP1BustosGil.h"
+
+1587159878 c:\users\felib\desktop\clases de programacion1 y laboratorio1\trabajo practico 1\tp1bustosgil.h
+
