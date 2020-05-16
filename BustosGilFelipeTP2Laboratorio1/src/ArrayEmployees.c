@@ -117,6 +117,7 @@ void bajaEmpleado(eEmployee vec[], int tam)
     else
     {
     	printf("\nTe quedaste sin intentos\n\n");
+    	id= -1;
     }
 
 
@@ -124,14 +125,22 @@ void bajaEmpleado(eEmployee vec[], int tam)
 
     if(indice== -1)
     {
-        printf("No hay registro de algun empleado con el id: %d\n", id);
+    	if(id==-1)
+    	{
+    		printf("\nSe cancelo la operacion\n\n");
+    	}
+    	else
+    	{
+    		printf("No hay registro de algun empleado con el id: %d\n", id);
+    	}
+
     }
     else
     {
         printf("id   Apellido Nombre Sector  Salario  \n");
     	mostrarEmpleado(vec[indice]);
 
-        printf("Confirma la baja? : ");
+        printf("\nConfirma la baja? : ");
         fflush(stdin);
         scanf("%c",&confirma);
 
@@ -302,26 +311,36 @@ void modificarEmpleado(eEmployee vec[],int tam)
     char nuevoApellido[51];
     int nuevoSector;
 
+
     system("cls");
     printf("****Modificar empleado****\n\n");
 
     mostrarEmpleados(vec,tam);
 
     if((utn_getEntero(&auxInt,2,"\nIngrese el id: ","\nError reingrese el id: ",1,1000))==0)
-    {
-    	id=auxInt;
-    }
-    else
-    {
-    	printf("\nTe quedaste sin intentos\n\n");
-    }
+        {
+        	id=auxInt;
+        }
+        else
+        {
+        	printf("\nTe quedaste sin intentos\n\n");
+        	id= -1;
+        }
 
 
     indice = buscarEmpleado(id,vec,tam);
 
     if(indice== -1)
     {
-        printf("No hay registro de algun empleado con el id: %d\n", id);
+    	if(id== -1)
+    	{
+    		printf("\nSe cancelo la operacion\n\n");
+    	}
+    	else
+    	{
+    		printf("No hay registro de algun empleado con el id: %d\n", id);
+    	}
+
     }
     else
     {
@@ -393,7 +412,7 @@ void modificarEmpleado(eEmployee vec[],int tam)
                     break;
 
                 default:
-                    printf("La opcion no es valida");
+                    printf("\n\nLa opcion no es valida\n");
                     break;
 
             }
@@ -414,7 +433,6 @@ char menuModificar()
     printf("b-Modificar apellido\n");
     printf("c-Modificar salario\n");
     printf("d-Modificar sector\n");
-    printf("e-Salir\n\n");
     printf("\n\nIngrese una opcion: ");
     fflush(stdin);
     scanf("%c",&opcion);
