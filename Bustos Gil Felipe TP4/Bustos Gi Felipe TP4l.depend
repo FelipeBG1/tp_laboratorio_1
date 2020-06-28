@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1593293076 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empresas.h"
+	"parser.h"
+	<string.h>
+
+1560475730 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\linkedlist.h
+
+1593208465 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\employee.h
+
+1592067166 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\parser.h
+
+1593218021 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"Validaciones.h"
+	<string.h>
+	"parser.h"
+	<ctype.h>
+
+1593292273 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\controller.h
+
+1592067166 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\validaciones.h
+
+1593213243 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1593293076 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empresas.h"
+	"Validaciones.h"
+	<string.h>
+	"parser.h"
+	<ctype.h>
+
+1593293076 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empresas.h"
+
+1592067166 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Validaciones.h"
+	<string.h>
+
+1593292836 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\empresa.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empresa.h"
+	"Validaciones.h"
+	<string.h>
+	"parser.h"
+	<ctype.h>
+
+1593291949 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\empresa.h
+
+1593293016 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\empresas.h
+
+1593293065 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4l\empresas.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empresas.h"
+	"Validaciones.h"
+	<string.h>
+	"parser.h"
+	<ctype.h>
+
+1593300770 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\empresas.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empresas.h"
+	"Validaciones.h"
+	<string.h>
+	"parser.h"
+	<ctype.h>
+
+1560475730 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\linkedlist.h
+
+1593301723 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\controller.h
+
+1593304005 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\empresas.h
+
+1592067166 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\validaciones.h
+
+1592067166 c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\parser.h
+
+1593213243 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1593293076 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empresas.h"
+
+1592067166 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Validaciones.h"
+	<string.h>
+
+1593299475 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Empresas.h"
+	"Validaciones.h"
+	<string.h>
+	"parser.h"
+	<ctype.h>
+
+1593304661 source:c:\users\felib\desktop\clases de programacion1 y laboratorio1\bustos gi felipe tp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empresas.h"
+	"parser.h"
+	<string.h>
+	"Validaciones.h"
+
